@@ -2,18 +2,18 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width: calc(100%-32px);
+  width: 100%;
   padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  border: 1px solid grey;
+  border: 1px solid #5999ff;
   border-radius: 8px;
   cursor: pointer;
   background-color: white;
   :hover {
-    background: lightgrey;
+    background: #eef5ff;
   }
 `;
 

@@ -11,11 +11,16 @@ const StyledTextarea = styled.textarea`
   padding: 16px;
   font-size: 16px;
   line-height: 20px;
+  border: 1px solid #5999ff;
+  border-radius: 8px;
+  &::placeholder {
+    color: #d8d8d8
+  }
 `;
 
 function TextInput(props) {
-  const { height, value, onChange } = props;
-  return <StyledTextarea height={height} value={value} onChange={onChange} />;
+  const { height, value, onChange, placeholder } = props;
+  return <StyledTextarea height={height} value={value} onChange={onChange} placeholder={placeholder} />;
 }
 
 export default TextInput;
