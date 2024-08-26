@@ -1,5 +1,6 @@
 # React 공부
 미니 블로그 프로젝트
+https://interesting-snapdragon-1cf.notion.site/mini-blog-450036882b2b4bf7af1f1c2e691fa511
 - 소플의 처음 만난 리액트 참고
 - 리액트 스터디
 - 스타일드 컴포넌트 사용
